@@ -1,6 +1,6 @@
 import express from 'express';
 import { ValidationError as SequelizeValidationError } from 'sequelize';
-import ObjectNotFound  from '../object-not-found';
+import ObjectNotFound from '../object-not-found';
 import ValidationError from '../validation-error';
 
 export default function globalErrorHandler(
